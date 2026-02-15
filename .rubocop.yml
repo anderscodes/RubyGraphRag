@@ -1,0 +1,44 @@
+AllCops:
+  NewCops: enable
+
+Metrics/ClassLength:
+  Max: 400
+
+Metrics/ModuleLength:
+  Max: 400
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/PerceivedComplexity:
+  Max: 12
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Lint/ConstantDefinitionInBlock:
+  Enabled: false
+
+Naming/PredicateMethod:
+  Enabled: false
+
+Naming/VariableNumber:
+  Enabled: false
+
+Gemspec/DevelopmentDependencies:
+  Enabled: false
+
+Gemspec/RequireMFA:
+  Enabled: false

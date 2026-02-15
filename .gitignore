@@ -1,0 +1,18 @@
+*.gem
+/.claude
+/.bundle
+/.config
+/coverage/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+.env
+
+## Environment normalization:
+/vendor/bundle
+/lib/bundler/man/
+Gemfile.lock
+
