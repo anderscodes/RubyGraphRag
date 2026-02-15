@@ -89,7 +89,7 @@ Prerequisites: Ruby `>= 3.2`, Bundler, and Docker (optional for Neo4j/Qdrant). A
 
    ```bash
    cd Gem
-   BUNDLE_PATH=vendor/bundle ruby -S bundle exec exe/ruby-graph-rag index /home/anders/writebook/app  \
+   BUNDLE_PATH=vendor/bundle ruby -S bundle exec exe/ruby-graph-rag index /path/to/repo  \
      --backend neo4j \
      --url bolt://127.0.0.1:7688 \
      --username neo4j \
